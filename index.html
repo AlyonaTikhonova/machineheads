@@ -18,10 +18,13 @@
 			<a href="#" class="main-menu__item">Рецепты</a>
 			<a href="#" class="main-menu__item">О компании</a>
 		</nav>
-		<div class="lang">CN</div>
-		<div class="hamburger-menu"></div>
+		<div class="right-menu">
+			<div class="lang">CN</div>
+			<div class="hamburger-menu"></div>
+		</div>
 	</header>
-	<div class="breadcrumbs">
+	<main class="card-product">
+		<div class="breadcrumbs">
 			<a href="#" class="breadcrumbs__item">Главная</a>
 			<p class="breadcrumbs__arrow"></p>
 			<a href="#" class="breadcrumbs__item">Каталог</a>
@@ -30,7 +33,7 @@
 			<p class="breadcrumbs__arrow"></p>
 			<a href="#" class="breadcrumbs__item">Колбаса «Докторская»</a>
 		</div>
-	<main class="card-product">
+	
 
 		<section class="card-product__main-info">
 			<div class="card-product__specification">
@@ -43,7 +46,7 @@
 				<div class="card-product__description">
 					Красивый рисунок на срезе с кусочками сыра, шпика и кускового мяса цыпленка-бройлера в сочетании с ароматом копчения, дополненным нежным сырным запахом с нотой красного перца, заставляют забыть обо всем и наслаждаться превосходным вкусом. 
 				</div>
-				<button class="feedback" type="button">Связаться</button>
+				<button class="feedback-btn" type="button">Связаться</button>
 			</div>
 			<div class="card-product__main-img">
 				<div class="card-product__tags">
@@ -54,11 +57,106 @@
 		</section>
 
 		<div class="carousel">
-			
+			<p class="carousel__left-arrow"></p>
+			<div class="carousel__dots">
+				<p class="dots__item"></p>
+				<p class="dots__item"></p>
+				<p class="dots__item"></p>
+				<p class="dots__item"></p>
+				<p class="dots__item"></p>
+				<p class="dots__item dots__active"></p>
+			</div>
+			<p class="carousel__right-arrow"></p>
 		</div>
-
-		<section class="card-product__char">
-			
+		
+			<h2 class="card-product__subtitle">Характеристики продукта</h2>
+			<section class="product-characteristics">
+			<div class="product-characteristics__part1">
+				<h3 class="product-characteristics__title">Упаковка</h3>
+				<div class="product-characteristics__item packing">
+					<table class="product-characteristics__table">
+						<tbody>
+							<tr>
+								<td>Масса нетто</td>
+								<td>500 г/уп</td>
+							</tr>
+							<tr>
+								<td>Термическое состояние</td>
+								<td>Охлажденное</td>
+							</tr>
+							<tr>
+								<td>Прозрачный пакет</td>
+								<td>500 г/уп</td>
+							</tr>
+							<tr>
+								<td>Замороженная весовая</td>
+								<td>500 г/уп</td>
+							</tr>
+							<tr>
+								<td>Замороженная весовая</td>
+								<td>500 г/уп</td>
+							</tr>
+							<tr>
+								<td>Фирменный пакет</td>
+								<td>500 г/уп</td>
+							</tr>
+							<tr>
+								<td>В вакууме</td>
+								<td>500 г/уп</td>
+							</tr>
+							<tr>
+								<td>Весовая</td>
+								<td>---</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h3 class="product-characteristics__title">Срок годности и условия хранения</h3>
+				<div class="product-characteristics__item storage">
+					<p class="product-characteristics__text">Упакованные в модифицированной газовой среде:</p> 
+					<p class="product-characteristics__text">Хранение при t от +2°С до +6°С не более 20 суток.</p>
+					<p class="product-characteristics__text">При t от 0°С до +2°С не более 5 сут.</p>
+					<p class="product-characteristics__text">При t не выше -8°С не более 30 сут.</p>
+					<p class="product-characteristics__text">При t не выше -12°С не более 3 мес.</p>
+					<p class="product-characteristics__text">При t не выше -18°С не более 6 мес.</p>
+					<p class="product-characteristics__text">При t не выше -25°С не более 8 мес</p>
+				</div>
+			</div>
+			<div class="product-characteristics__part2">
+				<h3 class="product-characteristics__title">Состав (краткий)</h3>
+				<div class="product-characteristics__item composition">
+					<p class="product-characteristics__text">Красивый рисунок на срезе с кусочками сыра, шпика и кускового мяса цыпленка-бройлера в сочетании с ароматом копчения, дополненным нежным сырным запахом с нотой красного перца, заставляют забыть обо всем и наслаждаться превосходным вкусом.</p>
+					<p class="product-characteristics__quote">- Полный состав смотрите на упаковке</p>
+				</div>
+				<h3 class="product-characteristics__title">Оболочка</h3>
+				<div class="product-characteristics__item shell">
+					<p class="product-characteristics__text">Съедобная коллагеновая сосисочная оболочка.</p>
+					<p class="product-characteristics__text">ТУ 9213-008-54780900-06</p>
+				</div>
+				<h3 class="product-characteristics__title">Пищевая ценность в 100г продукта</h3>
+				<div class="product-characteristics__item nutritional-value">
+					<table class="product-characteristics__table">
+						<tbody>
+							<tr>
+								<td>Белок не менее</td>
+								<td>14г</td>
+							</tr>
+							<tr>
+								<td>Жир не менее</td>
+								<td>22г</td>
+							</tr>
+							<tr>
+								<td>Углеводы</td>
+								<td>1г</td>
+							</tr>
+							<tr>
+								<td>Энергетическая ценность (калорийность)</td>
+								<td>1380 кДж/330ккал.</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
 		</section>
 	</main>
 </body>
