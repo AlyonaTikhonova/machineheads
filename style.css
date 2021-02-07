@@ -50,6 +50,17 @@ header {
 	position: relative;
 }
 
+.main-menu__drop-down:after {
+	content: ' ';
+    background-image: url(img/menu-arrow.png);
+    height: 10px;
+    width: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 15%;
+    left: 110%;
+}
+
 @media (min-width: 1601px) {
 		.main-menu__item_active:after {
 		content: '';
