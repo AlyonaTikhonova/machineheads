@@ -1,0 +1,165 @@
+@media (max-width: 1023px) {
+	.main-menu {
+		display: none;
+	}
+
+	.card-product__main-info {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	.card-product__specification {
+	    width: 100%;
+	}
+
+	.card-product__main-img {
+		width: 100%;
+	}
+
+	.product-characteristics {
+		flex-wrap: wrap;
+	}
+
+	.product-characteristics__part1, .product-characteristics__part2 {
+		width: 100%;
+	}
+
+
+}
+
+@media (max-width: 1280px) and (min-width: 1025px) {
+
+	header {
+		padding: 0 3%;
+    	padding-top: 1%;
+    	margin-bottom: 4%;
+	}
+
+	.logo {
+		width: 16%
+	}
+
+	.main-menu {
+		width: 57%;
+	}
+
+	.main-menu__item {
+		font-size: 15px;
+	}
+
+	.card-product {
+	    padding: 0 3%;
+	}
+
+	.breadcrumbs {
+		margin-bottom: 3%;
+	}
+
+	.card-product__specification {
+		padding-top: 3%;
+	}
+
+	.card-product__section-name {
+		margin-bottom: 4%;
+	}
+
+	.trademark {
+		margin-bottom: 16%;
+	}
+
+	.card-product__description {
+		width: 85%;
+		margin-bottom: 5%;
+	}
+
+	.feedback-btn {
+		width: 32%
+	}
+
+	.tags__action, .tags__new {
+		padding: 1% 3.5%;
+		top: 6%;
+	}
+
+	.tags__action {
+		left: 5%;
+	}
+
+	.tags__new {
+		left: 24%;
+	}
+
+	.card-product__main-img {
+	    max-height: 497px;
+    	background-size: cover;
+    	background-position: 50% 0%;
+	}
+
+	.card-product__main-info {
+		height: 76vh;
+	}
+
+	.carousel {
+		width: 90%;
+	}
+
+	.carousel__left-arrow {
+		margin-right: .5%;
+	}
+
+	.carousel__dots {
+		width: 20%;
+	}
+
+	.carousel__right-arrow {
+		margin-left: .5%;
+	}
+
+	.card-product__subtitle {
+		margin-bottom: 2.5%;
+	}
+
+	.product-characteristics__item {
+		margin-bottom: 5%;
+	}
+
+	.product-characteristics__part1 {
+		width: 49%
+	}
+
+	.product-characteristics__table > tbody > tr > td {
+		padding: 3% 0%;
+	}
+
+	.product-characteristics__table > tbody > tr > td:nth-last-child(-n+1) {
+		padding-left: 22%;
+	}
+
+	.product-characteristics__text {
+		width: 97%;
+	}
+
+	.composition {
+		padding: 5% 4%;
+		margin-bottom: 8.5%;
+	}
+
+	.product-characteristics__quote {
+		margin-top: 5.5%;
+	}
+
+	.shell {
+		padding-top: 4.5%;
+    	padding-left: 4%;
+    	margin-bottom: 9%;
+	}
+
+	.storage {
+		padding-top: 4%;
+	}
+
+	.nutritional-value > .product-characteristics__table > tbody > tr > td:nth-last-child(-n+1) {
+		padding-left: 6%;
+	}
+
+}

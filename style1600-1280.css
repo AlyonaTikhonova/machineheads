@@ -1,0 +1,55 @@
+@media (max-width: 1600px) and (min-width: 1281px) {
+
+	header {
+		padding: 0px 4.5%;
+		margin-bottom: 3.5%;
+		max-height: 80px;
+	}
+	.main-menu {
+	width: 52%;
+    margin-left: -8%;
+	}
+
+	.hamburger-menu {
+		margin-right: -13%;
+	}
+	.card-product {
+ 	   padding: 0 4.5%;
+	}
+	.card-product__section-name {
+		margin-bottom: 3%;
+	}
+	..trademark {
+		margin-bottom: 24%;
+	}
+	.card-product__description {
+		margin-bottom: 4%;
+	}
+	.feedback-btn {
+		width: 26%
+	}
+	.card-product__subtitle {
+		margin-bottom: 2%;
+	}
+	.product-characteristics__table > tbody > tr > td:nth-last-child(-n+1) {
+		padding-left: 33%;
+	}
+	.nutritional-value {
+		padding-top: 3%
+	}
+	.nutritional-value > .product-characteristics__table > tbody > tr > td:nth-last-child(-n+1) {
+	    padding-left: 10%;
+	    font-size: 16px;
+	}
+	.shell {
+		padding-top: 4%;
+		margin-bottom: 5%;
+	}
+	.product-characteristics__item {
+		margin-bottom: 5.5%;
+	}
+	.storage {
+		padding: 4% 4%;
+	}
+
+}
